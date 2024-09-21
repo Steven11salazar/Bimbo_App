@@ -7,14 +7,61 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/casa"
-            android:title="Inicio" />
+            android:title="@string/inicio" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/progresion_grafica"
-            android:title="EDA" />
+            android:title="@string/eda" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/tablero_de_mandos"
-            android:title="CMI" />
+            android:title="@string/cmi" />
+        <item
+            android:id="@+id/nav_querys"
+            android:icon="@drawable/rounded_button"
+            android:title="@string/querys">
+            <menu>
+                <item
+                    android:id="@+id/nav_query1"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_ventas_fecha" />
+                <item
+                    android:id="@+id/nav_query2"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_clientes_cantidad_compras" />
+                <item
+                    android:id="@+id/nav_query3"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_productos_categoria" />
+                <item
+                    android:id="@+id/nav_query4"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_promedio_ventas_diarias" />
+                <item
+                    android:id="@+id/nav_query5"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_ingresos_mensuales" />
+                <item
+                    android:id="@+id/nav_query6"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_ventas_semanales" />
+                <item
+                    android:id="@+id/nav_query7"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_menos_vendidos" />
+                <item
+                    android:id="@+id/nav_query8"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_ventas_findesemana" />
+                <item
+                    android:id="@+id/nav_query9"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_ventas_proveedor" />
+                <item
+                    android:id="@+id/nav_query10"
+                    android:icon="@drawable/baseline_data_exploration_24"
+                    android:title="@string/query_ingresos_clientes" />
+            </menu>
+        </item>
     </group>
 </menu>

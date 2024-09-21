@@ -22,4 +22,23 @@
         android:name="com.example.bimbo_app.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment android:id="@+id/nav_query1"
+        android:name="com.example.bimbo_app.ScrollingFragment_query1"
+        android:label="@string/query_ventas_fecha"
+        tools:layout="@layout/fragment_scrolling_query1"/>
+
+    <fragment android:id="@+id/nav_query2"
+        android:name="com.example.bimbo_app.ScrollingFragment_query2"
+        tools:layout="@layout/fragment_scrolling_query2"
+        android:label="@string/query_clientes_cantidad_compras"/>
+    <fragment android:id="@+id/nav_query3"
+        android:name="com.example.bimbo_app.ScrollingFragment_query3"
+        tools:layout="@layout/fragment_scrolling_query3"
+        android:label="@string/query_productos_categoria"/>
+
+    <fragment android:id="@+id/nav_query4"
+        android:name="com.example.bimbo_app.fragment_query4"
+        android:label="@string/query_promedio_ventas_diarias"
+        tools:layout="@layout/fragment_query4"/>
 </navigation>
