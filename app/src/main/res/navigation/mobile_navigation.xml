@@ -23,22 +23,54 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
-    <fragment android:id="@+id/nav_query1"
-        android:name="com.example.bimbo_app.ScrollingFragment_query1"
+    <fragment
+        android:id="@+id/nav_query1"
+        android:name="com.example.bimbo_app.nav_query1"
         android:label="@string/query_ventas_fecha"
-        tools:layout="@layout/fragment_scrolling_query1"/>
-
-    <fragment android:id="@+id/nav_query2"
-        android:name="com.example.bimbo_app.ScrollingFragment_query2"
-        tools:layout="@layout/fragment_scrolling_query2"
-        android:label="@string/query_clientes_cantidad_compras"/>
-    <fragment android:id="@+id/nav_query3"
-        android:name="com.example.bimbo_app.ScrollingFragment_query3"
-        tools:layout="@layout/fragment_scrolling_query3"
-        android:label="@string/query_productos_categoria"/>
-
-    <fragment android:id="@+id/nav_query4"
-        android:name="com.example.bimbo_app.fragment_query4"
+        tools:layout="@layout/fragment_nav_query1" />
+    <fragment
+        android:id="@+id/nav_query2"
+        android:name="com.example.bimbo_app.nav_query2"
+        android:label="@string/query_clientes_cantidad_compras"
+        tools:layout="@layout/fragment_nav_query2" />
+    <fragment
+        android:id="@+id/nav_query3"
+        android:name="com.example.bimbo_app.nav_query3"
+        android:label="@string/query_productos_categoria"
+        tools:layout="@layout/fragment_nav_query3" />
+    <fragment
+        android:id="@+id/nav_query4"
+        android:name="com.example.bimbo_app.nav_query4"
         android:label="@string/query_promedio_ventas_diarias"
-        tools:layout="@layout/fragment_query4"/>
+        tools:layout="@layout/fragment_nav_query4" />
+    <fragment
+        android:id="@+id/nav_query5"
+        android:name="com.example.bimbo_app.nav_query5"
+        android:label="@string/query_ingresos_mensuales"
+        tools:layout="@layout/fragment_nav_query5" />
+    <fragment
+        android:id="@+id/nav_query6"
+        android:name="com.example.bimbo_app.nav_query6"
+        android:label="@string/query_ventas_semanales"
+        tools:layout="@layout/fragment_nav_query6" />
+    <fragment
+        android:id="@+id/nav_query7"
+        android:name="com.example.bimbo_app.nav_query7"
+        android:label="@string/query_menos_vendidos"
+        tools:layout="@layout/fragment_nav_query7" />
+    <fragment
+        android:id="@+id/nav_query8"
+        android:name="com.example.bimbo_app.nav_query8"
+        android:label="@string/query_ventas_findesemana"
+        tools:layout="@layout/fragment_nav_query8" />
+    <fragment
+        android:id="@+id/nav_query9"
+        android:name="com.example.bimbo_app.nav_query9"
+        android:label="@string/query_ventas_proveedor"
+        tools:layout="@layout/fragment_nav_query9" />
+    <fragment
+        android:id="@+id/nav_query10"
+        android:name="com.example.bimbo_app.nav_query10"
+        android:label="@string/query_ingresos_clientes"
+        tools:layout="@layout/fragment_nav_query10" />
 </navigation>

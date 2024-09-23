@@ -16,6 +16,8 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/tablero_de_mandos"
             android:title="@string/cmi" />
+    </group>
+    <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_querys"
             android:icon="@drawable/rounded_button"
@@ -23,6 +25,7 @@
             <menu>
                 <item
                     android:id="@+id/nav_query1"
+
                     android:icon="@drawable/baseline_data_exploration_24"
                     android:title="@string/query_ventas_fecha" />
                 <item
@@ -64,4 +67,5 @@
             </menu>
         </item>
     </group>
+
 </menu>

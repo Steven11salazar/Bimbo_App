@@ -13,10 +13,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [fragment_query4.newInstance] factory method to
+ * Use the [nav_query8.newInstance] factory method to
  * create an instance of this fragment.
  */
-class fragment_query4 : Fragment() {
+class nav_query8 : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -34,7 +34,7 @@ class fragment_query4 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_query4, container, false)
+        return inflater.inflate(R.layout.fragment_nav_query8, container, false)
     }
 
     companion object {
@@ -44,12 +44,12 @@ class fragment_query4 : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment fragment_query4.
+         * @return A new instance of fragment nav_query8.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            fragment_query4().apply {
+            nav_query8().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
