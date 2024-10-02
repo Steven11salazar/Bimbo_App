@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
     namespace = "com.example.bimbo_app"
     compileSdk = 34
 
@@ -52,4 +55,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //Agregar la Dependencia de Fuel
+    implementation (libs.fuel) //Core package"
+    implementation (libs.fuel.android) //Android
+    implementation (libs.fuel.gson) //Fuel Gson
+    implementation (libs.gson) //Gson
 }
